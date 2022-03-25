@@ -1,0 +1,24 @@
+{
+  "name": "customerportalconnectivitytests",
+  "version": "1.0.0",
+  "description": "All Regression Connectivity Tests for Customer Portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AltairG10/CustomerPortalConnectivityTests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AltairG10/CustomerPortalConnectivityTests/issues"
+  },
+  "homepage": "https://github.com/AltairG10/CustomerPortalConnectivityTests#readme",
+  "dependencies": {
+    "cypress": "^9.5.2"
+  }
+}

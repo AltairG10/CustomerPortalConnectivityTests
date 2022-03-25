@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
  // All elements are defined inside the constructor using variables
- // Main class for this validation should be defined as a unique name for reference
+ // Main class for this validation should be defined as a unique name for reference in main class
 
 class AppMessageService {
    
@@ -16,7 +16,7 @@ class AppMessageService {
 
     }
 
-    // Functione defined interacting with all elements defined by the constructor
+    // Function defined will interact with all elements defined by the constructor
     // Using 'should' we are validating that all the elements are functional inside the workflow 
 
     appMessageValidation(){

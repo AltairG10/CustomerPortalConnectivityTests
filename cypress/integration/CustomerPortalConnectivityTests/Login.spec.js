@@ -13,6 +13,7 @@ class Login {
         cy.get(this.user).type(accnt)
         cy.get(this.password).type(pass)
         cy.get(this.siginbttn).click()
+        cy.log('Login Test Succesfully Validated');
     }
 }
 

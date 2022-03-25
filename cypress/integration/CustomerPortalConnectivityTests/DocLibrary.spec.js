@@ -1,5 +1,8 @@
 /// <reference types="cypress" />
 
+ // All elements are defined inside the constructor using variables
+ // Main class for this validation should be defined as a unique name for reference
+
 
 class DocLibrary {
     constructor(){
@@ -10,6 +13,9 @@ class DocLibrary {
         this.policy2 = '.card:nth-child(4) .ng-scope:nth-child(1) > td > .ng-binding';
 
     }
+
+    // Functione defined interacting with all elements defined by the constructor
+    // Using 'should' we are validating that all the elements are functional inside the workflow 
 
     policyValidation(){
         cy.get(this.doc_link).click()

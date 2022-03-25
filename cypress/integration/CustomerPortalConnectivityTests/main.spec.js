@@ -5,6 +5,7 @@
 import open from './Login.spec.js'
 import doc from './DocLibrary.spec.js'
 import app from './AppMessageService.spec.js'
+import arev from './ArevReplication.spec.js'
 
 // Defining constant variables for Login, we should change this for a differents users
 // if we want to test differents customers
@@ -57,6 +58,22 @@ describe('App Message Service', () => {
     it('App Message Service test', () => {
 
         app.appMessageValidation();
+
+    })
+
+})
+
+describe('Arev Replication HomePage Load Service', () => {
+
+    beforeEach(() => {
+        cy.visit(URL);
+        open.login(accnt, pass);  
+ 
+    })
+
+    it('Arev Load Service test', () => {
+
+        arev.ArevsLoadValidation();
 
     })
 

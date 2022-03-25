@@ -14,7 +14,7 @@ class DocLibrary {
 
     }
 
-    // Functione defined interacting with all elements defined by the constructor
+    // Function defined interacting with all elements defined by the constructor
     // Using 'should' we are validating that all the elements are functional inside the workflow 
 
     policyValidation(){

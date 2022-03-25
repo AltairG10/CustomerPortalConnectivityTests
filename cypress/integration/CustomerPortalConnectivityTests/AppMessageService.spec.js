@@ -22,7 +22,7 @@ class AppMessageService {
     appMessageValidation(){
         cy.get(this.app_message).click()
         cy.get(this.page_title).should('exist');
-        cy.get(this.user1_message).should('exist');
+        cy.get(this.user1_message, {timeout:8000}).should('exist');
         cy.get(this.user2_link).click();
         cy.get(this.user2_message).should('exist');
         cy.get(this.user_message).should('exist');

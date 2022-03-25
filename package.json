@@ -19,7 +19,7 @@
     "url": "https://github.com/AltairG10/CustomerPortalConnectivityTests/issues"
   },
   "homepage": "https://github.com/AltairG10/CustomerPortalConnectivityTests#readme",
-  "dependencies": {
+  "devDependencies": {
     "cypress": "^9.5.2"
   }
 }

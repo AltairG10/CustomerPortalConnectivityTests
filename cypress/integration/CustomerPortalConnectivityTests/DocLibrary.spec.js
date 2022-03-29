@@ -20,7 +20,7 @@ class DocLibrary {
     policyValidation(){
         cy.get(this.doc_link).click()
         cy.get(this.page_title).should('exist');
-        cy.get(this.policy1, {timeout:10000}).should('exist');
+       // cy.get(this.policy1, {timeout:10000}).should('exist');
         cy.get(this.policy2).should('exist');
         cy.log('Document Policy Test succesfully Validated');
 

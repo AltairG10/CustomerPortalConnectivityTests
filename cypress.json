@@ -1,6 +1,12 @@
 {
     "viewportWidth": 2500,
     "viewportHeight": 2000,
-    "chromeWebSecurity": false
+    "chromeWebSecurity": false,
+    "reporter": "cypress-mochawesome-reporter",
+        "reporterOptions": {
+        "reportDir": "cypress/report",
+        "charts": true,
+        "reportPageTitle": "Regression Report"
 
+    }
 }
